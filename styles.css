@@ -163,6 +163,16 @@ body {
     text-align: justify;
 }
 
+.intro__cat-wrapper {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.cat {
+  width: 150px;
+  height: 100px;
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
@@ -175,7 +185,19 @@ body {
 }
 
 .skills__list {
-  list-style-type: none;
+    display: flex;
+    justify-content: center;
+    white-space: break-spaces;
+}
+
+.skills__modal {
+  width: 150px;
+  height: 150px;
+  padding-right: 10px;
+  font-family: monospace;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: help;
 }
 
 /* Experience & Additional */
